@@ -1,7 +1,6 @@
 pipeline {
   agent any
-  tools {
-  }
+  
 
   environment {
     SONARQUBE_ENV = 'jenkins-sonar'
